@@ -4,3 +4,7 @@ This is a netflix clone I built using ReactJS, Axios, Firebase, and the tmdb API
 
 #### Finding a movie
 ![selectingmovie](selectingmovie.gif)
+
+
+#### Scrolling through a row of movies
+![scrollingmovies](scrolling.gif)
