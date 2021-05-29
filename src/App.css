@@ -6,6 +6,7 @@
 }
 
 .app {
+  /* position: sticky; */
   width: 100%;
   overflow-x: hidden;
   height: 100%;
@@ -18,12 +19,12 @@
 
 .app-body {
   position: absolute;
-  top: 28vh;
+  top: 75vh;
   width: 100%;
 
 }
 
-@media all and (min-width: 480px) {
+/* @media all and (min-width: 480px) {
   .app-body {
     top: 75vh;
   }
@@ -38,4 +39,4 @@
       top: 75vh;
   }
 
-}
+} */

@@ -4,6 +4,7 @@ import netflixAvatar from './img/netflix-avatar.png'
 import SearchIcon from '@material-ui/icons/Search'
 import CardGiftcardIcon from '@material-ui/icons/CardGiftcard';
 import NotificationsIcon from '@material-ui/icons/Notifications';
+import netflixLogo from "./img/netflix-logo.png";
 
 
 export default function NavBar() {
@@ -31,7 +32,7 @@ export default function NavBar() {
 
     return (
         <nav className={scrolled ? 'nav nav-scrolled' : 'nav nav-not-scrolled'}>
-            <img className="nav__logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_Netflix.png" />
+            <img className="nav__logo" src={netflixLogo} />
             <ul className="primary-navigation">
                 <li className="navigation-tab">Home</li>
                 <li className="navigation-tab">TV Shows</li>

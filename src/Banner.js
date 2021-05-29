@@ -4,8 +4,6 @@ import axios from './axios'
 import PlayArrowIcon from '@material-ui/icons/PlayArrow'
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined'
 
-
-
 export default function Banner({ fetchURL }) {
     const [bannerMovie, setBannerMovie] = useState([])
 
